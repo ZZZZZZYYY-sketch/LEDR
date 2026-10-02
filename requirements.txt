@@ -1,7 +1,10 @@
-torch
-transformers
-numpy
+# Base environment follows the public DTDBD (ICDE 2024) implementation:
+# Python 3.8, PyTorch > 1.0, pandas, NumPy, tqdm, Transformers.
+# scikit-learn and matplotlib are additionally imported by this LEDR code snapshot.
+torch>1.0
 pandas
+numpy
+tqdm
+transformers
 scikit-learn
 matplotlib
-tqdm
