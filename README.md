@@ -103,7 +103,7 @@ The documented preparation workflow is:
 5. Preserve the remaining fields and export the augmented dataframe in the same `train.pkl` / `val.pkl` / `test.pkl` structure expected by the loader.
 6. Complete and freeze LLM generation before model training.
 
-The supplied code archive did not contain the exact original prompt-generation script or exact prompt wording; therefore this repository does not invent one. The available workflow and manuscript-reported generation settings are documented in [`prompts/README.md`](prompts/README.md).
+The API model identifier used in the experiments was `deepseek-chat`, corresponding to **DeepSeek-V3.1**. The reported generation settings were temperature = 0.1 and a maximum output length of 1000 tokens.\n\nThe supplied code archive did not contain the exact original prompt-generation script or exact prompt wording; therefore this repository does not invent one. The available workflow and manuscript-reported generation settings are documented in [`prompts/README.md`](prompts/README.md).
 
 ## 6. Expected dataframe fields
 
