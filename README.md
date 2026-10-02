@@ -4,7 +4,6 @@ Research code for **LLM-assisted Context Enhancement with Domain-Aware Regulariz
 
 This repository contains the supplied experimental code snapshot together with documentation for data preparation, LLM-assisted context generation, training, and evaluation. Third-party raw datasets, pretrained model weights, and API credentials are not redistributed.
 
-> **Reproducibility note.** The public code snapshot is preserved rather than silently rewritten to make it look identical to settings that are not present in the supplied source. See [`REPRODUCIBILITY_NOTES.md`](REPRODUCIBILITY_NOTES.md) before claiming exact reproduction of every manuscript setting.
 
 ## 1. Repository structure
 
@@ -19,7 +18,6 @@ LEDR/
 ├── prompts/README.md         # documented LLM-generation workflow
 ├── pretrained_model/README.md
 ├── requirements.txt
-├── REPRODUCIBILITY_NOTES.md
 └── CHANGELOG.md
 ```
 
