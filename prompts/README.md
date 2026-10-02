@@ -35,7 +35,7 @@ expert_comment field in the original sample dataframe
 
 ## Manuscript-reported generation settings
 
-The manuscript describes DeepSeek as the LLM used for background/context generation, with generation completed before model training. The reported generation settings include a low temperature (`0.1`) and a maximum output length of 1000 tokens.
+The manuscript describes DeepSeek as the LLM used for background/context generation, with generation completed before model training. The API model identifier used in the experiments was `deepseek-chat`, corresponding to **DeepSeek-V3.1**. The reported generation settings include a low temperature (`0.1`) and a maximum output length of 1000 tokens.
 
 ## Important reproducibility note
 
