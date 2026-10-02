@@ -1,14 +1,17 @@
-# Release cleanup changelog
+# Changelog
 
-This cleanup preserves the supplied research-code snapshot and avoids inventing model logic.
+## PeerJ AI Application release preparation - 2026-10-03
 
-Changes made:
+- Expanded README to match the requested AI Application reproducibility structure.
+- Documented the DTDBD-based software environment and additional imports required by this snapshot.
+- Added official/upstream dataset sources for Weibo21, DITFEND, FakeNewsNet and MM-COVID.
+- Documented the expected dataframe schema and runtime preprocessing performed by the loader.
+- Documented the LLM-assisted context-generation workflow without inventing the missing exact prompt/API script.
+- Retained explicit reproducibility notes for source/manuscript differences.
+- Removed the non-runnable legacy `SNE.py` folder from the public release package.
 
-- flattened the nested archive into a GitHub-friendly repository;
-- added `README.md`, `requirements.txt`, `.gitignore`, data/model setup notes, and release notes;
-- moved the non-runnable `SNE.py` script to `legacy/`;
-- added empty output directories with `.gitkeep` files;
-- changed one hard-coded `.cuda()` domain-index construction to use the model device;
-- ensured `recodertestpkl/` is created before saving a test-time model snapshot;
-- added `train.py` as a convenience wrapper around the original `mainCKD.py` entry point;
-- did not change the model architecture, loss definition, paper hyperparameters, or reported results.
+## Previous cleanup
+
+- Added `.gitignore`, data/pretrained-model placeholders, and documentation.
+- Added safe creation of local output directories where needed.
+- Preserved the supplied research model/loss rather than fabricating manuscript-aligned code.
